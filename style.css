@@ -643,5 +643,8 @@ button {
     .nav-item {
         font-size: 23px;
     }
-
+    .galery-left .galery-up,
+    .galery-right .galery-down {
+        display: none;
+    }
 }
