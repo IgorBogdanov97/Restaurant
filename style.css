@@ -510,6 +510,7 @@ body {
 
 .burger-slide {
     position: absolute;
+    left: -100px;
 }
 
 .burger-slide a {
