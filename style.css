@@ -501,7 +501,9 @@ body {
 }
 
 #burger img {
-    min-width: 120%;
+    position: relative;
+    left: -50px;
+    min-width: 200%;
 }
 
 .block {
@@ -509,8 +511,8 @@ body {
 }
 
 .burger-slide {
-    position: absolute;
     left: -100px;
+    position: absolute;
 }
 
 .burger-slide a {
@@ -547,6 +549,28 @@ button {
 
     .galery-left {
         margin-right: 0; 
+    }
+
+   
+
+    .menu-subtext,
+    .menu-button {
+        font-size: 16px;
+    }
+
+    .comment-text,
+    .comment-type,
+    .comment-name {
+        font-size: 20px;
+    }
+
+    .menu-text {
+        font-size: 26px;
+    }
+
+    .galery-title,
+    .cook-title {
+        font-size: 40px;
     }
 
 }
@@ -624,6 +648,70 @@ button {
     .burgers-image {
         display: none;
     }
+
+    .header-title {
+        font-style: 30px;
+    }
+
+    .header-subtitle {
+        font-style: 40px;
+    }
+
+    .header-suptitle {
+        font-style: 15px;
+    }
+
+    .header-button {
+        font-size: 14px;
+    }
+
+    .card-title {
+        font-size: 16px;
+    }
+
+    .card-desc {
+        font-size: 14px;
+    }
+
+    .history-title {
+        font-size: 40px;
+    }
+
+    .history-desc {
+        font-size: 16px;
+    }
+
+    .number-item {
+        font-size: 40px;
+    }
+
+    .number-item span {
+        font-size: 20px;
+    }
+
+    .left-title {
+        font-size: 30px;
+    }
+
+    .left-text {
+        font-size: 24px;
+    }
+
+    .right-button {
+        font-size: 14px;
+    }
+
+    .dishes-title {
+        font-size: 40px;
+    }
+
+    .burger-text {
+        font-size: 22px;
+    }
+
+    .menu-title {        
+        font-size: 54px;
+    }
 }
 
 @media (max-width: 1000px) {
@@ -647,9 +735,6 @@ button {
         width: auto;
     }
 
-    .nav-item {
-        font-size: 23px;
-    }
     .galery-left .galery-up,
     .galery-right .galery-down {
         display: none;
