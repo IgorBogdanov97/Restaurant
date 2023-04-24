@@ -551,11 +551,9 @@ button {
         margin-right: 0; 
     }
 
-   
-
     .menu-subtext,
     .menu-button {
-        font-size: 16px;
+        font-size: 20px;
     }
 
     .comment-text,
@@ -565,7 +563,7 @@ button {
     }
 
     .menu-text {
-        font-size: 26px;
+        font-size: 40px;
     }
 
     .galery-title,
